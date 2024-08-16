@@ -1,0 +1,68 @@
+@import url('global.css');
+
+.club__wrapper{
+    height: 327px;
+    background: linear-gradient(180deg, #C3E9F9 0%, #F1FAFE 100%);
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    text-align: center;
+    display: flex;
+}
+
+.club__title{
+    color: var(--base-black, #030712);
+    /* Heading/Large */
+    font-family: Pretendard;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 75px */
+    letter-spacing: 1px;
+
+}
+.search{
+    position: relative;
+    width: 450px;
+    height: 50px;
+    margin: 20px auto;
+    border: 3px solid #64C6F0;
+    border-radius: 100px;
+    background-color: #ffffff;
+    padding: 0px 19px 0px 19px;
+}
+
+.search__box {
+    width: 80%;
+    height: 90%;
+    border-color: #bdc1c6;
+    border: 0px;
+    font-size: 16px;
+    outline: none;
+    display: flex;
+}
+
+
+.search__btn{
+    position: absolute;
+    right: 20px;
+    top: 20%;
+    background-color: transparent;
+    border: transparent;
+    color: #64C6F0;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+}
+
+.club__category{
+    display: inline-flex;
+    width: 90px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid var(--neutral-base, #8E979B);
+    background: var(--base-white, #FFF);
+    cursor: pointer;
+}
