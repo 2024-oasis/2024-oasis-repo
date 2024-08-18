@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대학생 회원가입</title>
+    <link rel="stylesheet" href="styles/signup2,3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <script src="scripts/signup2,3.js" defer></script>
+</head>
+<body>
+    <main class="main__signup">
+        <div class="signup-wrapper">
+            <h2>대학생 회원가입</h2>
+            <form id="signup-form" action="" method="POST">
+                 
+                <label for="id" class="signup__title">아이디</label>
+                  <div class="signup__id__container">
+                    <div class="id">
+                        <input
+                    id="id"
+                    class="signup__id username__input"
+                    type="text"
+                    name="id"
+                    placeholder="아이디를 입력해주세요"
+                    required
+                />
+                    <button class="id__check" type="button">중복확인</button>
+                    </div>
+                      
+                    <label for="password" class="signup__title">비밀번호</label>
+                    <div>
+                  <input
+                    id="password"
+                    class="password__input"
+                    type="password"
+                    name="password"
+                    placeholder="비밀번호를 입력해주세요"
+                    oninput="validatePassword()"
+                    required
+                />
+                <p id="passwordHelp" class="password__help-text">8자이상(문자/숫자) 조합으로 입력해주세요</p>
+                  </div>
+                  
+                
+                  
+                    <label for="password-check" class="signup__title">비밀번호 확인</label>
+                    <div>
+                    <input
+                    id="password-check"
+                    class="password__check"
+                    type="password"
+                    placeholder="비밀번호 확인"
+                    oninput="checkPasswordMatch()"
+                    required
+                    />
+
+                    <p id="passwordMismatch" class="password__mismatch" style="display: none;">*비밀번호가 일치하지 않습니다.</p>
+                  </div>
+                
+                  
+                    <label for="name" class="signup__title">성명</label>
+                    <div>
+                    <input
+                    id="name"
+                    class="signup__name name__input"
+                    type="text"
+                    name="name"
+                    placeholder="성명을 입력해주세요"
+                    required
+                    />
+                  </div>
+                
+                  <label for="birthday" class="signup__title">생년월일</label>
+                  <div>
+                      <input
+                          id="birthday"
+                          class="signup__birthday birthday__input"
+                          type="text"
+                          name="birthday"
+                          placeholder="생년월일을 입력해주세요"
+                          onfocus="(this.type='date')"
+                          onblur="if(this.value==''){this.type='text'}"
+                          required
+                      />
+                  </div>
+                  
+
+                 
+                    <label for="school_name" class="signup__title">학교이름</label>
+                    <div>
+                    <input list="schoolList" class="school" name="school" placeholder="학교를 선택해주세요.">
+
+                    <datalist id="schoolList">
+                        <option value="전남대학교">
+                        <option value="성균관대학교">
+                        <option value="서울시립대학교">
+                        <option value="서울과학기술대학교">
+                        <option value="경북대학교">
+                        <option value="전주대학교">
+                    </datalist>
+                 </div>
+                 
+                 
+                    <label for="grade" class="signup__title">학년</label>
+                    <div>
+                  <input list="gradeList" class="grade" name="grade" placeholder="학년을 선택해주세요">
+
+                  <datalist id="gradeList">
+                      <option value="1">
+                      <option value="2">
+                      <option value="3">
+                      <option value="4">
+                  </datalist>
+                 </div>
+                </form>
+
+                <div class="signup__login">
+                <button class="signup__before">이전</button>
+                <button class="signup__after">다음</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
