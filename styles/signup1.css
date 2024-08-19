@@ -95,6 +95,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 150%; /* 22.5px */
+  cursor: pointer;
 }
 
 #teacher-signup-button {
@@ -116,4 +117,5 @@
   font-style: normal;
   font-weight: 700;
   line-height: 150%; /* 22.5px */
+  cursor: pointer;
 }
