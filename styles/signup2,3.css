@@ -1,0 +1,147 @@
+@import url('global.css');
+
+.signup-wrapper{
+    background-color: #f1fafe;
+    display: flex;
+    flex-direction: column; /* Row에서 Column으로 변경하여 세로 배치 */
+}
+
+#signup-form{
+    border-radius: 16px;
+    border: 1px solid #D4D8D9;
+    background: #ffffff;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 72px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 4px;
+    margin-bottom: 60px;
+}
+
+.signup-wrapper>h2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: Pretendard;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+.signup__id{
+    border-radius: 8px;
+    border: 1px solid #E6E8E9;
+    background: #F7F8F8;
+    width: 70%;
+    height: 42px;
+    padding: 4px 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.password__input,.password__check{
+        border-radius: 8px;
+        border: 1px solid #E6E8E9;
+        background: #F7F8F8;
+        width: 400px;
+        height: 42px;
+        padding: 4px 16px;
+        margin-top: 4px;
+        margin-bottom: 25px;
+        font-family: 'Noto Sans KR', sans-serif;
+}
+
+.signup__name,.signup__birthday,.school,.grade{
+    border-radius: 8px;
+    border: 1px solid #E6E8E9;
+    background: #F7F8F8;
+    width: 400px;
+    height: 42px;
+    padding: 4px 16px;
+    margin-top: 4px;
+    margin-bottom: 25px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.id{
+    display: flex;
+    gap: 4px;
+    margin-bottom: 25px;
+}
+
+.id__check{
+    width: 30%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border-style: none;
+    background-color: #64C6F0;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.signup__title{
+    font-size: 15px;
+    line-height: 22.5px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+    }
+
+.password__help-text{
+    font-size: 13px;
+    color: #295BFF;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    display: none;
+}
+
+.password__mismatch{
+    font-size: 13px;
+    color: #cc1f3c;
+    display: none;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-bottom: 25px;
+    margin-top: 0px;
+}
+
+.signup__before{
+    width: 178px;
+    height: 48px;
+    padding: 4px 16px;
+    border-radius: 8px;
+    border: 1px solid #8E979B;
+    background: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signup__after{
+    width: 250px;
+    height: 48px;
+    padding: 4px 16px;
+    border-radius: 8px;
+    background: #64C6F0;
+    border-style: none;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signup__login{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
