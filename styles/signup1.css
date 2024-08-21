@@ -42,21 +42,24 @@
 }
 
 .student,
+.mentor,
 .teacher {
   display: flex;
   justify-content: center; /* 수평 가운데 정렬 */
   align-items: center; /* 수직 가운데 정렬 */
   flex-direction: column;
-  width: 302px;
-  height: 301px;
+  width: 250px;
+  height: 300px;
   border-radius: 8px;
   border: 1px solid var(--neutral-100, #e6e8e9);
   background: var(--base-white, #fff);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
   text-align: center;
   padding: 20px;
 }
 
 #student-img,
+#mentor-img,
 #teacher-img {
   width: 144px;
   height: 144px;
@@ -98,6 +101,28 @@
   cursor: pointer;
 }
 
+#mentor-signup-button {
+  width: auto;
+  height: 35px;
+  padding: 6px 32px;
+  margin-top: 0px;
+  margin-bottom: 24px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 100px;
+  border: 1px solid var(--primary-700, #ffe59e);
+  background: var(--primary-300, #ffe59e);
+  color: #000;
+  text-align: center;
+  /* Label/Small */
+  font-family: Pretendard;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 22.5px */
+  cursor: pointer;
+}
+
 #teacher-signup-button {
   width: auto;
   height: 35px;
@@ -107,9 +132,9 @@
   justify-content: space-between;
   align-items: center;
   border-radius: 100px;
-  border: 1px solid var(--primary-700, #41809b);
-  background: var(--secondary-base, #41809b);
-  color: #fff;
+  border: 1px solid var(--primary-700, #fcd9de);
+  background: var(--secondary-base, #fcd9de);
+  color: #000;
   text-align: center;
   /* Label/Small */
   font-family: Pretendard;
