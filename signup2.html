@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>초,중,고등학생 회원가입</title>
     <link rel="stylesheet" href="styles/signup2,3.css">
+    <link rel="stylesheet" href="/styles/header.css" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
     <script src="scripts/signup2,3.js" defer></script>
+    <script src="scripts/header.js" defer></script>
 </head>
 <body>
     <main class="main__signup">
+        <div id="header"></div>
         <div class="signup-wrapper">
             <h2>초,중,고등학생 회원가입</h2>
             <form id="signup-form" action="" method="POST">
                  
-                <label for="id" class="signup__title">아이디</label>
+                <label for="id" class="signup__title"> &nbsp;아이디 </label>
                   <div class="signup__id__container">
                     <div class="id">
                         <input
@@ -25,10 +28,10 @@
                     placeholder="아이디를 입력해주세요"
                     required
                 />
-                    <button class="id__check" type="button">중복확인</button>
+                    <button class="id__check" type="button"> 중복확인</button>
                     </div>
                       
-                    <label for="password" class="signup__title">비밀번호</label>
+                    <label for="password" class="signup__title"> &nbsp;비밀번호</label>
                     <div>
                   <input
                     id="password"
@@ -44,7 +47,7 @@
                   
                 
                   
-                    <label for="password-check" class="signup__title">비밀번호 확인</label>
+                    <label for="password-check" class="signup__title">&nbsp;비밀번호 확인</label>
                     <div>
                     <input
                     id="password-check"
@@ -59,7 +62,7 @@
                   </div>
                 
                   
-                    <label for="name" class="signup__title">성명</label>
+                    <label for="name" class="signup__title">&nbsp;성명</label>
                     <div>
                     <input
                     id="name"
@@ -71,7 +74,7 @@
                     />
                   </div>
                 
-                  <label for="birthday" class="signup__title">생년월일</label>
+                  <label for="birthday" class="signup__title">&nbsp;생년월일</label>
                   <div>
                       <input
                           id="birthday"
@@ -87,7 +90,7 @@
                   
 
                  
-                    <label for="school_name" class="signup__title">학교이름</label>
+                    <label for="school_name" class="signup__title">&nbsp;학교이름</label>
                     <div>
                     <input list="schoolList" class="school" name="school" placeholder="학교를 선택해주세요.">
 
@@ -102,7 +105,7 @@
                  </div>
                  
                  
-                    <label for="grade" class="signup__title">학년</label>
+                    <label for="grade" class="signup__title">&nbsp;학년</label>
                     <div>
                   <input list="gradeList" class="grade" name="grade" placeholder="학년을 선택해주세요">
 

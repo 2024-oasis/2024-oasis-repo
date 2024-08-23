@@ -20,11 +20,12 @@
     margin-left: auto;
     margin-right: auto;
     gap: 4px;
+    margin-bottom: 60px;
 }
 
 .signup-wrapper>h2{
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     font-family: Pretendard;
     font-size: 40px;
     font-style: normal;
