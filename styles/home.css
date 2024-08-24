@@ -1,1 +1,329 @@
 @import url('global.css');
+
+.body{
+    margin: 0;
+    padding: 0;;
+}
+
+.index__section{
+    height: 400px;
+    width: 100%;
+    background-color: #F1FAFE;
+    text-align: center;
+    align-items: center;
+    /* display: flex; */
+    justify-content: center;
+}
+
+.index__section img{
+    width: 260px;
+    align-items: center;
+    justify-content: center;
+}
+
+.index__section__title{
+    color: #000;
+
+    /* Heading/Large */
+    font-family: Pretendard;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 75px */
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.index__section__content{
+    color: #000;
+
+    text-align: center;
+    /* Body/Large */
+    font-family: Pretendard;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 28.5px */
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.Frame76 {
+    width: 1440px;
+    height: 1449px;
+    position: relative;
+}
+
+.title {
+    left: 141px;
+    top: 356px;
+    position: absolute;
+    font-size: 50px;
+    font-family: Pretendard;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.highlight {
+    color: #64C6F0;
+}
+
+.Subtract{
+    width: 340px;
+    height: 340px;
+    left: -200px;
+    top: 0px;
+    position: absolute;
+    opacity: 0.30;
+}
+
+.Line1 {
+    width: 118px;
+    height: 0px;
+    left: 242px;
+    top: 500px;
+    position: absolute;
+    border: 6px #64C6F0 solid;
+}
+
+.Frame77 {
+    width: 782px;
+    height: 1063px;
+    left: 551px;
+    top: 182px;
+    position: absolute;
+}
+
+.Frame52,
+.Frame57,
+.Frame58,
+.Frame59 {
+    width: 377px;
+    height: 443px;
+    position: absolute;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.Frame52 {
+    left: 405px;
+    top: 0px;
+    background: #DEF3FC;
+}
+
+.Frame57 {
+    left: 0px;
+    top: 138px;
+    background: #C3E9F9;
+}
+
+.Frame58 {
+    left: 0px;
+    top: 620px;
+    background: #DEF3FC;
+}
+
+.Frame59 {
+    left: 405px;
+    top: 471px;
+    background: #C3E9F9;
+}
+
+.Frame52-title,
+.Frame57-title,
+.Frame58-title,
+.Frame59-title {
+    left: 33px;
+    top: 43px;
+    position: absolute;
+    color: #030712;
+    font-size: 32px;
+    font-family: Pretendard;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 1px;
+}
+
+.Frame52-content,
+.Frame57-content,
+.Frame58-content,
+.Frame59-content {
+    width: 311px;
+    left: 33px;
+    top: 96px;
+    position: absolute;
+    color: #030712;
+    font-size: 21px;
+    font-family: Pretendard;
+    font-weight: 400;
+    line-height: 31.50px;
+}
+
+.WritingIdeas1 {
+    width: 172px;
+    height: 172px;
+    left: 172px;
+    top: 253px;
+    position: absolute;
+}
+
+.WritingIdeas {
+    width: 166.06px;
+    height: 166.06px;
+    left: 170px;
+    top: 238.74px;
+    position: absolute;
+    transform: rotate(-8.35deg);
+    transform-origin: 0 0;
+}
+
+.Books {
+    width: 144.53px;
+    height: 146.60px;
+    left: 227.80px;
+    top: 242px;
+    position: absolute;
+    transform: rotate(15.75deg);
+    transform-origin: 0 0;
+}
+
+.WritingIdeas2 {
+    width: 196px;
+    height: 196px;
+    left: 148px;
+    top: 247px;
+    position: absolute;
+}
+
+.club__section{
+    text-align: center;
+    align-items: center;
+    /* display: flex; */
+    justify-content: center;
+    background-color: #F1FAFE;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.club__section h1{
+    font-size: 40px;
+}
+
+.club__section__content{
+    font-size: 19px;
+    margin-bottom: 50px;
+}
+.club__container{
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.home__club__card{
+    display: flex;
+    width: 240px;
+    padding: 16px 22px;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(89, 89, 89, 0.10), 0px 0px 9px 0px rgba(89, 89, 89, 0.01), 0px 0px 8px 0px rgba(89, 89, 89, 0.04), 0px 0px 6px 0px rgba(89, 89, 89, 0.07), 0px 0px 3px 0px rgba(89, 89, 89, 0.08);
+    position: relative; /* 오버레이와 버튼 위치를 카드 안에서 제어하기 위해 position 설정 */
+    overflow: hidden;
+
+}
+
+.home__club__card .card__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 10px;
+}
+
+.home__club__card .card__overlay button {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.home__club__card:hover .card__overlay {
+    opacity: 1;
+}
+
+.home__club__card:hover {
+    transform: scale(1.05);
+}
+
+.club__card__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+.school__name{
+    color: var(--base-black, #030712);
+    text-align: center;
+    /* Title/Medium */
+    font-family: Pretendard;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 28.5px */
+}
+
+.school__grade{
+    display: flex;
+    width: 82px;
+    padding: 2px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: var(--positive-100, #D0F5E1);
+}
+
+.club__img{
+    height: 173px;
+    align-self: stretch;
+}
+
+.club__name{
+    color: #000;
+    text-align: center;
+    /* Title/Medium */
+    font-family: Pretendard;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 28.5px */
+    align-self: stretch;
+    margin: 0;
+}
+
+.club__content{
+    color: #000;
+
+    /* Body/Small */
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+    margin: 0;
+}
+
