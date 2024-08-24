@@ -2,7 +2,7 @@
 
 .club__wrapper{
     height: 327px;
-    background: linear-gradient(180deg, #C3E9F9 0%, #F1FAFE 100%);
+    background: #F1FAFE;
     justify-content: center; /* 가로 중앙 정렬 */
     align-items: center; /* 세로 중앙 정렬 */
     text-align: center;
@@ -65,4 +65,100 @@
     border: 1px solid var(--neutral-base, #8E979B);
     background: var(--base-white, #FFF);
     cursor: pointer;
+}
+
+.club__category.active{
+    border: 1px solid #1288BA;
+    background: #DEF3FC;
+
+}
+
+.club__card__wrapper{
+    display: inline-flex;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 30px;
+}
+
+.club__card__wrappers{
+    text-align: center;
+    align-items: center;
+    /* display: flex; */
+    justify-content: center;
+    background-color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    
+}
+
+.club__card{
+    display: flex;
+    width: 240px;
+    padding: 16px 22px;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(89, 89, 89, 0.10), 0px 0px 9px 0px rgba(89, 89, 89, 0.01), 0px 0px 8px 0px rgba(89, 89, 89, 0.04), 0px 0px 6px 0px rgba(89, 89, 89, 0.07), 0px 0px 3px 0px rgba(89, 89, 89, 0.08);
+    
+}
+
+.club__card__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+.school__name{
+    color: var(--base-black, #030712);
+    text-align: center;
+    /* Title/Medium */
+    font-family: Pretendard;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 28.5px */
+}
+
+.school__grade{
+    display: flex;
+    width: 82px;
+    padding: 2px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: var(--positive-100, #D0F5E1);
+}
+
+.club__img{
+    height: 173px;
+    align-self: stretch;
+}
+
+.club__name{
+    color: #000;
+    text-align: center;
+    /* Title/Medium */
+    font-family: Pretendard;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 28.5px */
+    align-self: stretch;
+    margin: 0;
+}
+
+.club__content{
+    color: #000;
+
+    /* Body/Small */
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+    margin: 0;
 }
