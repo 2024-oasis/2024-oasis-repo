@@ -27,9 +27,9 @@
 .notice-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center; /* ¿ä¼ÒµéÀ» ¼öÆòÀ¸·Î °¡¿îµ¥ Á¤·Ä */
-  justify-content: center; /* ¿ä¼ÒµéÀ» ¼öÁ÷À¸·Î °¡¿îµ¥ Á¤·Ä */
-  width: 100%; /* ÄÁÅ×ÀÌ³Ê°¡ ÀüÃ¼ ³Êºñ¸¦ Â÷ÁöÇÏµµ·Ï ¼³Á¤ */
+  align-items: center; /* ï¿½ï¿½Òµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½îµ¥ ï¿½ï¿½ï¿½ï¿½ */
+  justify-content: center; /* ï¿½ï¿½Òµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½îµ¥ ï¿½ï¿½ï¿½ï¿½ */
+  width: 100%; /* ï¿½ï¿½ï¿½ï¿½ï¿½Ì³Ê°ï¿½ ï¿½ï¿½Ã¼ ï¿½Êºï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ïµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
 
   color: #000;
   /* Body/Medium */
@@ -95,7 +95,7 @@
 }
 
 .publisher2 {
-  margin-left: 236px;
+  margin-left: 248px;
 }
 .notice-date {
   margin-left: 120px;
@@ -121,17 +121,17 @@
   align-items: center;
   border-radius: 0px 50px 0px 0px;
   background: #fff;
-  margin-left: 90px;
+  margin-left: 120px;
 }
 
 .class-explanation-wrapper {
   display: flex;
   flex-direction: column;
-  margin-left: 110px;
+  margin-left: 150px;
 }
 
 .class-explanation-header {
-  width: ;
+  /* width: ; */
   height: 101px;
   flex-shrink: 0;
   color: #000;
@@ -147,7 +147,7 @@
 
 .class-explanation-content {
   display: flex;
-  width: ;
+  /* width: ; */
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
