@@ -232,8 +232,40 @@
     border-radius: 30px;
     background: #FFF;
     box-shadow: 0px 0px 10px 0px rgba(89, 89, 89, 0.10), 0px 0px 9px 0px rgba(89, 89, 89, 0.01), 0px 0px 8px 0px rgba(89, 89, 89, 0.04), 0px 0px 6px 0px rgba(89, 89, 89, 0.07), 0px 0px 3px 0px rgba(89, 89, 89, 0.08);
-    
+    position: relative; /* 오버레이와 버튼 위치를 카드 안에서 제어하기 위해 position 설정 */
+    overflow: hidden;
 
+}
+
+.home__club__card .card__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 10px;
+}
+
+.home__club__card .card__overlay button {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.home__club__card:hover .card__overlay {
+    opacity: 1;
+}
+
+.home__club__card:hover {
+    transform: scale(1.05);
 }
 
 .club__card__title{
