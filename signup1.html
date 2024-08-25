@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원가입</title>
+    <link rel="stylesheet" href="/styles/global.css" />
+    <link rel="stylesheet" href="/styles/signup1.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <script src="scripts/header.js" defer></script>
+    <script src="scripts/signup1.js" defer></script>
+  </head>
+  <body>
+    <div id="header"></div>
+
+    <!-- 자바스크립트로 템플릿을 삽입합니다 -->
+    
+    <div class="signup1-wrapper">
+      <h1>회원가입</h1>
+      <p>해당하는 가입 유형을 선택해주세요</p>
+
+      <div class="signup-type">
+        <div class="student">
+          <img id="student-img" src="./res/student.png" alt="학생" />
+          <p>초, 중, 고등학생</p>
+          <button id="student-signup-button">가입하기</button>
+        </div>
+        <div class="mentor">
+          <img id="mentor-img" src="./res/mentor.png" alt="학생" />
+          <p>대학생 멘토</p>
+          <button id="mentor-signup-button">가입하기</button>
+        </div>
+        <div class="teacher">
+          <img id="teacher-img" src="./res/teacher.png" alt="선생님" />
+          <p>교사</p>
+          <button id="teacher-signup-button">가입하기</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
