@@ -1,0 +1,53 @@
+.popup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+.icon{
+    margin-top: 145px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    height: 70px;
+}
+
+.text{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 77px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.goTOMain{
+    margin-top: 30px;
+    border-radius: 8px;
+    gap: 4px;
+    padding: 4px 16px 4px 16px;
+    width: 200px;
+    height: 48px;
+    background-color: white;
+    border: 1px solid #8E979B;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 17px;
+}
+.login{
+    margin-top: 30px;
+    border-radius: 8px;
+    gap: 4px;
+    padding: 4px 16px 4px 16px;
+    width: 200px;
+    height: 48px;
+    background-color: #64C6F0;
+    border: 1px solid #8E979B;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 17px;
+}
