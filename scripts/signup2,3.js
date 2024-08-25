@@ -30,3 +30,14 @@ function checkPasswordMatch() {
     }
 }
 
+function move4() {
+    window.location.href = "signup4.html"; 
+}
+
+function goToMain() {
+    window.location.href = "main.html"; // 메인 페이지로 이동
+}
+
+function login() {
+    window.location.href = "login.html"; // 로그인 페이지로 이동
+}
