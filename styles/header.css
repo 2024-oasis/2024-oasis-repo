@@ -44,3 +44,7 @@ a{
 .header__menu__item{
     padding: 8px 16px;
 }
+
+.username {
+    margin-right: 10px; /* 사용자 이름과 로그아웃 버튼 사이에 10px 간격 추가 */
+}
