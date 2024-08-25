@@ -38,6 +38,7 @@
     border: 1px solid #8E979B;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 17px;
+    cursor: pointer;
 }
 .login{
     margin-top: 30px;
@@ -50,4 +51,5 @@
     border: 1px solid #8E979B;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 17px;
+    cursor: pointer;
 }
