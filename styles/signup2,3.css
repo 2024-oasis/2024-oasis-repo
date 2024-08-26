@@ -97,7 +97,7 @@
 
     }
 
-.password__help-text{
+.password__help-text, .id__check__sentence{
     font-size: 13px;
     color: #295BFF;
     font-family: 'Noto Sans KR', sans-serif;
