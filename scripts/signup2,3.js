@@ -30,6 +30,16 @@ function checkPasswordMatch() {
     }
 }
 
+document.getElementById("id__check").addEventListener("click", function() {
+    var idCheckSentence = document.getElementById("id__check__sentence");
+    var usernameInput = document.getElementById("id");
+
+    // 메시지를 표시하고 스타일 변경
+    idCheckSentence.style.display = "block"; // 메시지 표시
+    usernameInput.style.marginBottom = "0px"; // 입력창의 margin-bottom 변경
+});
+
+
 function move4() {
     window.location.href = "signup4.html"; 
 }
