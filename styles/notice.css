@@ -4,9 +4,10 @@
   width: 100%;
   height: 1024px;
   background: #fff;
-  flex-direction: column;
-  align-items: center;
+  /* flex-direction: column; */
+  /* align-items: center;
   justify-content: center;
+  display: flex; */
 }
 
 .announce-title {
@@ -28,9 +29,11 @@
 }
 
 .announce-wrapper1 {
-  margin: 72px;
-  margin-left: 105px;
-  margin-right: 105px;
+  /* margin: 72px; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .announce-title-wrapper {
@@ -45,7 +48,7 @@
   font-size: 21px;
   font-style: normal;
   font-weight: 700;
-  line-height: 150%; /* 31.5px */
+  line-height: 200%; /* 31.5px */
 }
 
 .announce-date-publisher {
@@ -90,13 +93,15 @@
 }
 
 .announce-content {
-  /* display: flex; */
-  max-width: 1240px;
+  display: flex;
+  width: 1160px;
+  margin: 0;
   /* height: 0; */
-  padding: 10px;
-  align-items: center;
+  /* padding: 10px; */
+  align-items: left;
   flex-shrink: 0;
   flex-direction: column;
+
 }
 
 .list-button {
