@@ -1,9 +1,42 @@
-document.querySelectorAll('.club__category').forEach(button => {
-    button.addEventListener('click', function() {
-        // ëª¨ë“  ë²„íŠ¼ì—ì„œ active í´ëž˜ìŠ¤ ì œê±°
-        document.querySelectorAll('.club__category').forEach(btn => btn.classList.remove('active'));
-        
-        // í´ë¦­ëœ ë²„íŠ¼ì— active í´ëž˜ìŠ¤ ì¶”ê°€
-        this.classList.add('active');
+document.querySelectorAll(".club__category").forEach((button) => {
+  button.addEventListener("click", function () {
+    // ëª¨ë“  ë²„íŠ¼?—?„œ active ?´?ž˜?Š¤ ? œê±?
+    document
+      .querySelectorAll(".club__category")
+      .forEach((btn) => btn.classList.remove("active"));
+
+    // ?´ë¦??œ ë²„íŠ¼?— active ?´?ž˜?Š¤ ì¶”ê??
+    this.classList.add("active");
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const categoryButtons = document.querySelectorAll(".club__category");
+  const clubCards = document.querySelectorAll(".club__card");
+
+  categoryButtons.forEach((button) => {
+    button.addEventListener("click", function () {
+      // ¸ðµç Ä«Å×°í¸® ¹öÆ°¿¡¼­ active Å¬·¡½º Á¦°Å
+      categoryButtons.forEach((btn) => btn.classList.remove("active"));
+      // ÇöÀç Å¬¸¯ÇÑ ¹öÆ°¿¡ active Å¬·¡½º Ãß°¡
+      this.classList.add("active");
+
+      const categoryId = this.id;
+
+      clubCards.forEach((card) => {
+        // "ÀüÃ¼" ¹öÆ° Å¬¸¯ ½Ã ¸ðµç Ä«µå¸¦ Ç¥½Ã
+        if (
+          categoryId === "all" ||
+          categoryId === "" ||
+          this.textContent === "ÀüÃ¼"
+        ) {
+          card.style.display = "block";
+        } else if (card.id === categoryId) {
+          card.style.display = "block";
+        } else {
+          card.style.display = "none";
+        }
+      });
     });
+  });
 });

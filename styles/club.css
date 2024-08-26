@@ -1,217 +1,231 @@
-@import url('global.css');
+@import url("global.css");
 
-.club__wrapper{
-    height: 327px;
-    background: #F1FAFE;
-    justify-content: center; /* 가로 중앙 정렬 */
-    align-items: center; /* 세로 중앙 정렬 */
-    text-align: center;
-    display: flex;
+.club__wrapper {
+  height: 327px;
+  background: #f1fafe;
+  justify-content: center; /* �?�? 중앙 ?��?�� */
+  align-items: center; /* ?���? 중앙 ?��?�� */
+  text-align: center;
+  display: flex;
 }
 
-.club__title{
-    color: var(--base-black, #030712);
-    /* Heading/Large */
-    font-family: Pretendard;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 150%; /* 75px */
-    letter-spacing: 1px;
-
+.club__title {
+  color: var(--base-black, #030712);
+  /* Heading/Large */
+  font-family: Pretendard;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 75px */
+  letter-spacing: 1px;
 }
-.search{
-    position: relative;
-    width: 450px;
-    height: 50px;
-    margin: 20px auto;
-    border: 3px solid #64C6F0;
-    border-radius: 100px;
-    background-color: #ffffff;
-    padding: 0px 19px 0px 19px;
+.search {
+  position: relative;
+  width: 450px;
+  height: 50px;
+  margin: 20px auto;
+  border: 3px solid #64c6f0;
+  border-radius: 100px;
+  background-color: #ffffff;
+  padding: 0px 19px 0px 19px;
 }
 
 .search__box {
-    width: 80%;
-    height: 90%;
-    border-color: #bdc1c6;
-    border: 0px;
-    font-size: 16px;
-    outline: none;
-    display: flex;
+  width: 80%;
+  height: 90%;
+  border-color: #bdc1c6;
+  border: 0px;
+  font-size: 16px;
+  outline: none;
+  display: flex;
 }
 
-
-.search__btn{
-    position: absolute;
-    right: 20px;
-    top: 20%;
-    background-color: transparent;
-    border: transparent;
-    color: #64C6F0;
-    cursor: pointer;
-    width: 32px;
-    height: 32px;
-    padding: 0px;
+.search__btn {
+  position: absolute;
+  right: 20px;
+  top: 20%;
+  background-color: transparent;
+  border: transparent;
+  color: #64c6f0;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  padding: 0px;
 }
 
-.club__category{
-    display: inline-flex;
-    width: 90px;
-    height: 36px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    border: 1px solid var(--neutral-base, #8E979B);
-    background: var(--base-white, #FFF);
-    cursor: pointer;
+.club__category {
+  display: inline-flex;
+  width: 90px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid var(--neutral-base, #8e979b);
+  background: var(--base-white, #fff);
+  cursor: pointer;
 }
 
-.club__category.active{
-    border: 1px solid #1288BA;
-    background: #DEF3FC;
-
+.club__category.active {
+  border: 1px solid #1288ba;
+  background: #def3fc;
 }
 
-.club__card__wrapper{
-    display: inline-flex;
-    align-items: center;
-    gap: 32px;
-    margin-bottom: 30px;
+.club__card__wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 30px;
 }
 
-.club__card__wrappers{
-    text-align: center;
-    align-items: center;
-    /* display: flex; */
-    
-    justify-content: center;
-    background-color: #ffffff;
-    padding-top: 80px;
-    padding-bottom: 0px;
-    
+.club__card__wrappers {
+  text-align: center;
+  align-items: center;
+  /* display: flex; */
+
+  justify-content: center;
+  background-color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 0px;
 }
 
-.club__card{
-    display: flex;
-    width: 240px;
-    padding: 16px 22px;
-    flex-direction: column;
-    align-items: center;
-    gap: 13px;
-    border-radius: 30px;
-    background: #FFF;
-    box-shadow: 0px 0px 10px 0px rgba(89, 89, 89, 0.10), 0px 0px 9px 0px rgba(89, 89, 89, 0.01), 0px 0px 8px 0px rgba(89, 89, 89, 0.04), 0px 0px 6px 0px rgba(89, 89, 89, 0.07), 0px 0px 3px 0px rgba(89, 89, 89, 0.08);
-    position: relative; /* 오버레이와 버튼 위치를 카드 안에서 제어하기 위해 position 설정 */
-    overflow: hidden;
+.club__card {
+  display: flex;
+  width: 240px;
+  padding: 16px 22px;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(89, 89, 89, 0.1),
+    0px 0px 9px 0px rgba(89, 89, 89, 0.01),
+    0px 0px 8px 0px rgba(89, 89, 89, 0.04),
+    0px 0px 6px 0px rgba(89, 89, 89, 0.07),
+    0px 0px 3px 0px rgba(89, 89, 89, 0.08);
+  position: relative; /* ?��버레?��??? 버튼 ?��치�?? 카드 ?��?��?�� ?��?��?���? ?��?�� position ?��?�� */
+  overflow: hidden;
 }
-
 
 .club__card .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 10px;
 }
 
 .club__card .overlay button {
-    padding: 10px 20px;
-    background-color: #fff;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
 }
 
 .club__card:hover .overlay {
-    opacity: 1;
+  opacity: 1;
 }
 
 .club__card:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
-.club__card__title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 13px;
+.club__card__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
 }
 
-.school__name{
-    color: var(--base-black, #030712);
-    text-align: center;
-    /* Title/Medium */
-    font-family: Pretendard;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 150%; /* 28.5px */
+.school__name {
+  color: var(--base-black, #030712);
+  text-align: center;
+  /* Title/Medium */
+  font-family: Pretendard;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 28.5px */
 }
 
-.school__grade{
-    display: flex;
-    width: 82px;
-    padding: 2px 8px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    border-radius: 8px;
-    background: var(--positive-100, #D0F5E1);
+.school__grade {
+  display: flex;
+  width: 82px;
+  padding: 2px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: var(--positive-100, #d0f5e1);
 }
 
-.club__img{
-    height: 173px;
-    align-self: stretch;
+.school__grade1 {
+  display: flex;
+  width: 82px;
+  padding: 2px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: var(--positive-100, #fff3d1);
 }
 
-.club__name{
-    color: #000;
-    text-align: center;
-    /* Title/Medium */
-    font-family: Pretendard;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 150%; /* 28.5px */
-    align-self: stretch;
-    margin: 0;
+.club__img {
+  height: 173px;
+  align-self: stretch;
+  width: 100%;
+  object-fit: cover; /* 이미지가 왜곡되지 않도록 유지합니다 */
+  display: block;
+  margin: 0 auto;
 }
 
-.club__content{
-    color: #000;
-
-    /* Body/Small */
-    font-family: Pretendard;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 22.5px */
-    margin: 0;
+.club__name {
+  color: #000;
+  text-align: center;
+  /* Title/Medium */
+  font-family: Pretendard;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 28.5px */
+  align-self: stretch;
+  margin: 0;
 }
 
-.more__button{
-    display: flex;
-    width: 169px;
-    padding: 12px 16px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    border-radius: 50px;
-    background: var(--neutral-100, #E6E8E9);
-    border: none;
+.club__content {
+  color: #000;
+
+  /* Body/Small */
+  font-family: Pretendard;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 22.5px */
+  margin: 0;
 }
 
-.button__wrapper{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    padding: 50px;
+.more__button {
+  display: flex;
+  width: 169px;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 50px;
+  background: var(--neutral-100, #e6e8e9);
+  border: none;
+}
+
+.button__wrapper {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 50px;
 }
