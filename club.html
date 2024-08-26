@@ -7,143 +7,156 @@
     <link rel="stylesheet" href="/styles/club.css" />
     <link rel="stylesheet" href="/styles/header.css" />
     <script src="scripts/header.js" defer></script>
-    <script src="https://kit.fontawesome.com/8fad52e12c.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/8fad52e12c.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="scripts/club.js" defer></script>
   </head>
   <body>
     <div id="header"></div>
 
-
     <!-- 자바스크립트로 템플릿을 삽입합니다 -->
-    
 
     <div class="club__wrapper">
-        <div class="club__wrapper2">
-            <div class="club__title">동아리 게시판</div>
-            <div class="search">
-                <input class="search__box" type="text" name="" placeholder="동아리명을 입력하세요">
-                <button class="search__btn">
-                    <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
-                </button>
-            </div>
-            <div class="club__categories">
-                <button class="club__category active">전체</button>
-                <button class="club__category">초등학생</button>
-                <button class="club__category">중학생</button>
-                <button class="club__category">고등학생</button>
-            </div>
+      <div class="club__wrapper2">
+        <div class="club__title">동아리 게시판</div>
+        <div class="search">
+          <input
+            class="search__box"
+            type="text"
+            name=""
+            placeholder="동아리명을 입력하세요"
+          />
+          <button class="search__btn">
+            <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
+          </button>
         </div>
+        <div class="club__categories">
+          <button class="club__category active">전체</button>
+          <button class="club__category" id="elementary">초등학생</button>
+          <button class="club__category" id="middle">중학생</button>
+          <button class="club__category">고등학생</button>
+        </div>
+      </div>
     </div>
     <div class="club__card__wrappers">
       <div class="club__card__wrapper">
-        <div class="club__card">
+        <div class="club__card" id="elementary">
           <div class="club__card__title">
-            <p class="school__name">강진동초등학교</p>
+            <p class="school__name">서정초등학교</p>
             <p class="school__grade">초등학교</p>
           </div>
-            <img src="res/club_book.jpg" alt="책 이미지" class="club__img"/>
-            <p class="club__name">맛있는 책읽기 교실</p>
-            <p class="club__content">JNE 독서능력진단검사를 활용한
-              학생들의 독서 능력 및 습관 진단</p>
+          <img src="res/club1.jpg" alt="책 이미지" class="club__img" />
+          <p class="club__name">땅끝자연탐사활동</p>
+          <p class="club__content">
+            생태계와 환경을 탐사하며 자연의 아름다움과 소중함을 배움
+          </p>
           <div class="overlay">
-              <button>자세히 보기</button>
+            <button>자세히 보기</button>
           </div>
         </div>
-        <div class="club__card">
+        <div class="club__card" id="elementary">
+          <div class="club__card__title">
+            <p class="school__name">녹동초등학교</p>
+            <p class="school__grade">초등학교</p>
+          </div>
+          <img src="res/club2.jpg" alt="책 이미지" class="club__img" />
+          <p class="club__name">녹동합창동아리</p>
+          <p class="club__content">
+            합창의 맑고 고운 하모니 속에서 협동심과 자율성을 키움
+          </p>
+          <div class="overlay">
+            <button>자세히 보기</button>
+          </div>
+        </div>
+        <div class="club__card" id="elementary">
+          <div class="club__card__title">
+            <p class="school__name">군서초등학교</p>
+            <p class="school__grade">초등학교</p>
+          </div>
+          <img src="res/club3.png" alt="책 이미지" class="club__img" />
+          <p class="club__name">접어부러</p>
+          <p class="club__content">
+            종이를 접어 다양한 작품을 만들며 손끝의 섬세함과 상상력을 키움
+          </p>
+          <div class="overlay">
+            <button>자세히 보기</button>
+          </div>
+        </div>
+        <div class="club__card" id="elementary">
           <div class="club__card__title">
             <p class="school__name">강진동초등학교</p>
             <p class="school__grade">초등학교</p>
           </div>
-            <img src="res/club_book.jpg" alt="책 이미지" class="club__img"/>
-            <p class="club__name">맛있는 책읽기 교실</p>
-            <p class="club__content">JNE 독서능력진단검사를 활용한
-              학생들의 독서 능력 및 습관 진단</p>
-            <div class="overlay">
-                <button>자세히 보기</button>
-            </div>
-        </div>
-        <div class="club__card">
-          <div class="club__card__title">
-            <p class="school__name">강진동초등학교</p>
-            <p class="school__grade">초등학교</p>
+          <img src="res/club_book.jpg" alt="책 이미지" class="club__img" />
+          <p class="club__name">맛있는 책읽기 교실</p>
+          <p class="club__content">
+            JNE 독서능력진단검사를 활용한 학생들의 독서 능력 및 습관 진단
+          </p>
+          <div class="overlay">
+            <button>자세히 보기</button>
           </div>
-            <img src="res/club_book.jpg" alt="책 이미지" class="club__img"/>
-            <p class="club__name">맛있는 책읽기 교실</p>
-            <p class="club__content">JNE 독서능력진단검사를 활용한
-              학생들의 독서 능력 및 습관 진단</p>
-            <div class="overlay">
-                <button>자세히 보기</button>
-            </div>
-        </div>
-        <div class="club__card">
-          <div class="club__card__title">
-            <p class="school__name">강진동초등학교</p>
-            <p class="school__grade">초등학교</p>
-          </div>
-            <img src="res/club_book.jpg" alt="책 이미지" class="club__img"/>
-            <p class="club__name">맛있는 책읽기 교실</p>
-            <p class="club__content">JNE 독서능력진단검사를 활용한
-              학생들의 독서 능력 및 습관 진단</p>
-            <div class="overlay">
-                <button>자세히 보기</button>
-            </div>
         </div>
       </div>
       <div class="club__card__wrapper">
-        <div class="club__card">
+        <div class="club__card" id="middle">
           <div class="club__card__title">
-            <p class="school__name">강진동초등학교</p>
-            <p class="school__grade">초등학교</p>
+            <p class="school__name">봉래중학교</p>
+            <p class="school__grade1">중학교</p>
           </div>
-            <img src="res/club_book.jpg" alt="책 이미지" class="club__img"/>
-            <p class="club__name">맛있는 책읽기 교실</p>
-            <p class="club__content">JNE 독서능력진단검사를 활용한
-              학생들의 독서 능력 및 습관 진단</p>
-            <div class="overlay">
-                <button>자세히 보기</button>
-            </div>
+          <img src="res/club5.png" alt="책 이미지" class="club__img" />
+          <p class="club__name">RC카부</p>
+          <p class="club__content">
+            원격 조종 자동차를 조립, 조종하며 기계와 기술에 대한 이해를 높임
+          </p>
+          <div class="overlay">
+            <button>자세히 보기</button>
+          </div>
         </div>
-        <div class="club__card">
+        <div class="club__card" id="middle">
           <div class="club__card__title">
-            <p class="school__name">강진동초등학교</p>
-            <p class="school__grade">초등학교</p>
+            <p class="school__name">옥곡중학교</p>
+            <p class="school__grade1">중학교</p>
           </div>
-            <img src="res/club_book.jpg" alt="책 이미지" class="club__img"/>
-            <p class="club__name">맛있는 책읽기 교실</p>
-            <p class="club__content">JNE 독서능력진단검사를 활용한
-              학생들의 독서 능력 및 습관 진단</p>
-            <div class="overlay">
-                <button>자세히 보기</button>
-            </div>
+          <img src="res/club6.png" alt="책 이미지" class="club__img" />
+          <p class="club__name">그릴 자유</p>
+          <p class="club__content">
+            자유로운 주제로 만화 그리기와 전시회 개최 활동
+          </p>
+          <div class="overlay">
+            <button>자세히 보기</button>
+          </div>
         </div>
-        <div class="club__card">
+        <div class="club__card" id="middle">
           <div class="club__card__title">
-            <p class="school__name">강진동초등학교</p>
-            <p class="school__grade">초등학교</p>
+            <p class="school__name">동강중학교</p>
+            <p class="school__grade1">중학교</p>
           </div>
-            <img src="res/club_book.jpg" alt="책 이미지" class="club__img"/>
-            <p class="club__name">맛있는 책읽기 교실</p>
-            <p class="club__content">JNE 독서능력진단검사를 활용한
-              학생들의 독서 능력 및 습관 진단</p>
-            <div class="overlay">
-                <button>자세히 보기</button>
-            </div>
+          <img src="res/club7.png" alt="책 이미지" class="club__img" />
+          <p class="club__name">콤퓨타</p>
+          <p class="club__content">
+            SW 교육과 3D 프린터를 활용하며 컴퓨터에 대한 흥미 유발
+          </p>
+          <div class="overlay">
+            <button>자세히 보기</button>
+          </div>
         </div>
-        <div class="club__card">
+        <div class="club__card" id="middle">
           <div class="club__card__title">
-            <p class="school__name">강진동초등학교</p>
-            <p class="school__grade">초등학교</p>
+            <p class="school__name">관저중학교</p>
+            <p class="school__grade1">중학교</p>
           </div>
-            <img src="res/club_book.jpg" alt="책 이미지" class="club__img"/>
-            <p class="club__name">맛있는 책읽기 교실</p>
-            <p class="club__content">JNE 독서능력진단검사를 활용한
-              학생들의 독서 능력 및 습관 진단</p>
-            <div class="overlay">
-                <button>자세히 보기</button>
-            </div>
+          <img src="res/club8.png" alt="책 이미지" class="club__img" />
+          <p class="club__name">PET동아리</p>
+          <p class="club__content">
+            환경 문제에 대한 관심을 기울이며 다양한 활동으로 실천 경험 쌓음
+          </p>
+          <div class="overlay">
+            <button>자세히 보기</button>
+          </div>
         </div>
       </div>
-      
     </div>
     <div class="button__wrapper">
       <button class="more__button">더보기</button>
