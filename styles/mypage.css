@@ -1,0 +1,155 @@
+.mypage-title {
+  display: flex;
+  width: 100%;
+  padding: 67px 0px 68px 0px;
+  justify-content: center;
+  align-items: center;
+  background: var(--primary-50, #f1fafe);
+  color: var(--base-black, #030712);
+  font-family: Pretendard;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 75px */
+  letter-spacing: 1px;
+  margin-bottom: 27px;
+}
+
+.mypage-content {
+  display: flex;
+  justify-content: center; /* 중앙 정렬 추가 */
+  gap: 50px; /* 왼쪽과 오른쪽 영역 간의 간격 */
+}
+
+.mypage-left {
+  display: flex; /* 부모 요소에서 Flexbox를 사용 */
+  flex-direction: column; /* 자식 요소들을 수직으로 정렬 */
+  gap: 20px; /* 클래스 간의 간격 추가 */
+}
+
+.mypage-class1,
+.mypage-class2 {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  height: 200px;
+  border-radius: 50px;
+  border: 1px solid #64c6f0;
+  padding: 50px;
+  margin: auto;
+  color: #000;
+
+  /* Body/Large */
+  font-family: Pretendard;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 28.5px */
+}
+
+.student-name {
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.class1-rate,
+.class2-rate {
+  margin-top: 30px;
+  /* gap: 10px; */
+}
+
+.mypage-right {
+  display: flex;
+  flex-direction: column; /* 수직 정렬 */
+  align-items: flex-start; /* 왼쪽 정렬 */
+  gap: 50px; /* 프로필과 알림 간의 간격 */
+}
+
+.teacher-profile-wrapper {
+  width: 352px;
+  height: 161px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: var(--neutral-100, #EDF1F3);
+
+  color: #000;
+  font-family: Pretendard;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;s
+  line-height: 150%; /* 28.5px */
+  
+  padding: 15px; /* 내부 여백 추가 */
+  display: flex; /* 프로필 이미지와 텍스트 정렬 */
+  align-items: center;
+  gap: 15px; /* 이미지와 텍스트 간의 간격 */
+}
+
+.teacher-profile-wrapper > img {
+  width: 110px; /* 원하는 너비를 설정 */
+  height: 110px; /* 높이를 자동으로 설정하여 비율 유지 */
+  border-radius: 50%; /* 이미지를 원형으로 만들기 위해 추가 */
+  margin-left: 15px;
+}
+
+.teacher-profile {
+  margin-left: 20px;
+}
+
+.notification-wrapper {
+  width: auto;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: var(--neutral-100, #fff);
+  padding: 20px; /* 내부 여백 추가 */
+  /* align-items: center; */
+}
+
+.notification-header {
+  display: flex;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 28.5px */
+  margin-bottom: 30px; /* 헤더와 알림 내용 간의 간격 */
+}
+
+.notifications {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* 각 알림 간의 간격 */
+}
+
+span {
+  font-weight: 700;
+}
+
+.noti1,.noti2,.noti3{
+  border-radius: 16px;
+  border: 1px solid var(--neutral-200, #d4d8d9);
+  background: #fff;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+
+  color: #000;
+  font-family: Pretendard;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  padding: 20px;
+
+}
+
+/* .notifications > ul {
+  /* list-style-type: disc; 불릿을 원 모양으로 설정 */
+  padding-left: 10px; /* 기본 들여쓰기 */
+  margin: 10px;
+}
+
+.notifications > li {
+  margin-bottom: 20px; /* 각 항목 간의 간격 설정 */
+  list-style-type: disc; /* 불릿을 원 모양으로 설정 */
+} */
