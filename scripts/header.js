@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     event.preventDefault();
 
                     // 사용자 이름을 가져옴 (예시: '사용자')
-                    const username = "최지원(교사)"; // 실제로는 사용자 입력 또는 서버 응답에서 받아옴
+                    const username = "고길동(교사)"; // 실제로는 사용자 입력 또는 서버 응답에서 받아옴
 
                     // localStorage에 사용자 이름 저장
                     localStorage.setItem('username', username);
